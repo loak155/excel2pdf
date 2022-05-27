@@ -1,5 +1,4 @@
-# 実行コマンド(xlsx2pdf.bat)
-# powershell -NoProfile -ExecutionPolicy Unrestricted .\xlsx2pdf.ps1 %1
+# powershell -NoProfile -ExecutionPolicy Unrestricted .\excel2pdf.ps1 %1
 
 if ( $args -eq $null ) {
     Write-Error '引数がありません'
